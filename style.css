@@ -1,0 +1,77 @@
+
+.todos-bg-container {
+    background-color: #f9fbfe;
+    min-height: 100vh;
+    padding: 20px;
+}
+.todos-heading {
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 20px;
+    color: #8a4cb6;
+}
+.create-task-heading,
+.todo-items-heading {
+    font-size: 38px;
+    font-weight: bold;
+    color: #4c8db6;
+}
+.create-task-heading-subpart,
+.todo-items-heading-subpart {
+    font-weight: normal;
+}
+.todo-user-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d7dfe9;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.button {
+    background-color: #4cb66e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.todo-items-container {
+    list-style-type: none;
+    padding-left: 0;
+}
+.todo-item-container {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.checkbox-input {
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
+}
+.label-container {
+    width: 100%;
+    background-color: #e6f6ff;
+    border-left: 5px solid #096f92;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.checkbox-label {
+    padding: 12px;
+    margin: 0;
+    flex-grow: 1;
+}
+.delete-icon-container {
+    padding-right: 10px;
+}
+.delete-icon {
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+}
+.checked {
+    text-decoration: line-through;
+}
